@@ -10,19 +10,33 @@ Descripcion:
 Programa creado para que practiquen los conocimietos adquiridos durante la semana
 '''
 
-__author__ = "Inove Coding School"
+__author__ = "francia"
 __email__ = "alumnos@inove.com.ar"
 __version__ = "1.2"
 
 
-def ej1():
-    print('Ejercicios de práctica con números')
+def ej1():    print('Ejercicios de práctica con números')
 
     '''
     Realice un programa que solicite por consola 2 números
     Calcule la diferencia entre ellos e informe por pantalla
     si el resultado es positivo, negativo o cero.
     '''
+    x = 5
+    y = 3
+
+    # verificar si "x" es par 
+    
+    if (x % 2) == 0:
+       print ('"x es par')
+    
+    else:
+       print ('"x es impar"')
+
+
+
+
+
 
 
 def ej2():
